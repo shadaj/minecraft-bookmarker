@@ -1,0 +1,15 @@
+main: me.shadaj.BookmarkPlugin
+name: minecraft-bookmarker
+version: 0.1
+author: shadaj
+description: A plugin that lets you bookmark locations
+commands:
+  bookmark:
+    description: Bookmarks the player's location
+    usage: /<command> <bookmarkName>
+  goTo:
+    description: Goes to the given bookmark
+    usage: /<command> <bookmarkName>
+  listPlaces:
+    description: Lists all of the bookmarks
+    usage: /<command>
